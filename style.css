@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #f2ebe3;
+}
+
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#card_box {
+  width: 580px;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.page {
+  min-width: 50%;
+  background-color: white;
+}
+
+.img_content {
+  background-image: url(./images/image-product-desktop.jpg);
+  background-size: cover;
+}
+
+.text_content {
+  padding: 24px;
+}
+
+.text_box {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #6c7289;
+}
+
+.spread {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.content_title {
+  font-family: 'Fraunces', serif;
+  font-size: 32px;
+  color: #1c232b;
+}
+
+.content_text {
+  line-height: 24px;
+}
+
+#price_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price_new {
+  font-family: 'Fraunces', serif;
+  font-size: 32px;
+  color: #3c8067;
+  margin-right: 20px;
+}
+
+.price_old {
+  text-decoration: line-through;
+}
+
+.cart_button {
+  padding: 10px;
+  color: white;
+  background-color: #3c8067;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cart_button:hover {
+  background-color: #18352a;
+  cursor: pointer;
+}
+
+.cart_button_text {
+  margin-left: 8px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 375px) {
+  #card_box {
+    width: 340px;
+    height: 700px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page {
+    min-height: 45%;
+  }
+  .img_content {
+    background-position-y: -130px;
+  }
+  .text_box {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

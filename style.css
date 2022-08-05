@@ -71,6 +71,7 @@ body {
 h1 {
   font-family: 'Fraunces', serif;
   font-size: 32px;
+  font-weight: 500;
   color: #1c232b;
 }
 

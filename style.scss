@@ -96,6 +96,7 @@ h1{
     border-radius: 9px;
     display: flex;
     justify-content: center;
+    border: 0;
     &:hover{
         background-color: $cyan_color_hover;
         cursor: pointer;
